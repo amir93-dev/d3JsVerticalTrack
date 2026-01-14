@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+.chart-parent {
+  display: flex;
+}
+/* #scrollbar {
+  width: 100%;
+  height: 60px;
+  margin-top: 4px;
+} */
+
+.toolbar {
+  position: absolute;
+  top: 10px;
+  left: 133px;
+  z-index: 10;
+}
+
+.toolbar button {
+  margin-right: 4px;
+}
+
+/* #scrollContainer {
+  width: 16px;
+  overflow-y: auto;
+  margin-left: 4px;
+  float: left;
+} */
+
+/* #scrollContent {
+  width: 1px;
+} */
+
+.axis path,
+.axis line {
+  stroke: #444;
+  shape-rendering: crispEdges;
+}
+
+.depth-grid {
+  stroke: #cfcfcf;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+.brush .selection {
+  fill: rgba(0, 120, 215, 0.2);
+  stroke: #0078d7;
+}
