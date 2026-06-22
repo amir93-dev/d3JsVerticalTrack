@@ -21,11 +21,11 @@ const CONFIG = {
   },
 
   yAxis: {
-    min: 15000,
+    min: 1000,
     max: 16000,
     interval: 20,
     isInvers: true,
-    show: true,
+    show: false,
   },
 
   zoom: {
